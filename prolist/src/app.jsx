@@ -26,8 +26,17 @@ export function App() {
   )
 
   return (
-    <div>
-      Ola react
+    <div className='app'>
+      <h1>Lista de Tarefas</h1>
+      <div className="todo-list">
+        {todos.map((todo) => (
+          <div className="todo">
+            <div className="content">
+              <p>{todo.text}</p>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   )
 }
