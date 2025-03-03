@@ -34,18 +34,25 @@ input{
 }
 
 button{
-  background-color: brown;
+  background-color: rgb(102, 0, 139);
   color: white;
   padding: 5px 10px;
   border: none;
   border-radius: 3px;
   cursor:pointer;
-  opacity: .8;
   transition: .3s;
 }
 
 button:hover{
-  opacity: 1;
+  opacity: .8;
+}
+
+.complete{
+  background-color: green;
+}
+
+.remove{
+  background-color: red;
 }
 
 .todo-form{

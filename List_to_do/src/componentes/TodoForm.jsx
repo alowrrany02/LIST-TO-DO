@@ -1,6 +1,14 @@
-import React from 'react'
+import {useState} from 'react'
 
 const TodoForm = () => {
+    const [value, setValue] = useState("")
+    const [category, setCategory] = useState("")
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log("Enviou form!")
+    }
+    
   return (
     <div>
       <div className='todo-form' >
