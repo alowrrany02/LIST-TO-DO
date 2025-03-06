@@ -38,7 +38,7 @@ button{
   color: rgb(54, 27, 27);
   padding: 5px 10px;
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
   cursor:pointer;
   transition: .3s;
 }
