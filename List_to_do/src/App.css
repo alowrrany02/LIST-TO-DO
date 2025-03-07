@@ -29,13 +29,13 @@ p{
   margin: 10px 0;
 }
 
-input{ 
+input{
   box-sizing: border-box;
 }
 
 button{
   background-color: rgb(102, 0, 139);
-  color: rgb(255, 255, 255); 
+  color: rgb(255, 255, 255);
   padding: 5px 10px;
   border: none;   
   border-radius: 3px;  
